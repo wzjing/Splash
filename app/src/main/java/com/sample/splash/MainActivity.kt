@@ -42,5 +42,7 @@ class MainActivity : AppCompatActivity() {
         }
         setContentView(R.layout.activity_main)
 
+        resolutionTv.text = "${resources.displayMetrics.xdpi}x${resources.displayMetrics.ydpi}(${resources.displayMetrics.densityDpi}dp)"
+
     }
 }

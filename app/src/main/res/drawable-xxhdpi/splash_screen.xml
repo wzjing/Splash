@@ -18,21 +18,20 @@
 
     <item
         android:id="@+id/view"
-        android:bottom="200dp"
-        android:end="0dp"
-        android:gravity="center"
-        android:start="0dp"
+        android:bottom="180dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:gravity="fill"
         android:top="0dp">
-        <nine-patch android:src="@drawable/graphic_stretch" android:tintMode="screen"/>
+        <nine-patch
+            android:dither="true"
+            android:src="@drawable/graphic" />
     </item>
 
     <item
         android:id="@+id/my_logo"
-        android:width="120dp"
-        android:height="60dp"
         android:bottom="60dp"
-        android:gravity="center|bottom"
-        android:top="600dp">
+        android:gravity="center|bottom">
         <bitmap android:src="@drawable/logo" />
     </item>
 
